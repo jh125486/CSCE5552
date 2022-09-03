@@ -10,15 +10,15 @@ int main(void) {
   gets(buff);
   
   if (strcmp(buff, "verylongpassword")) {
-    printf("\n  Wrong Password \n");
+    printf("\nWrong Password\n");
   } else {
-    printf("\n Correct Password \n");
+    printf("\nCorrect Password\n");
     pass = 1;
   }
 
   if (pass) {
     // Give rights to user
-    printf("\n Root privileges given to the user \n");
+    printf("\nRoot privileges given to the user\n");
   }
 
   return 0;
